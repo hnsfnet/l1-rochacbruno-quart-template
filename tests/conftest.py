@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from l1_rochacbruno_quart_template import create_app
+from l1_rochacbruno_quart_template.ext.commands import populate_db
+from l1_rochacbruno_quart_template.ext.database import db
 
 
 @pytest.fixture(scope="session")
