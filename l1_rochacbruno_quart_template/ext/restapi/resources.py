@@ -2,7 +2,7 @@ from flask import abort, jsonify
 from flask_restful import Resource
 from flask_simplelogin import login_required
 
-from project_name.models import Product
+from l1_rochacbruno_quart_template.models import Product
 
 
 class ProductResource(Resource):
