@@ -43,7 +43,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <l1_rochacbruno_quart_template>` or `$ l1_rochacbruno_quart_template` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -52,24 +52,24 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name Flask Application
+# l1_rochacbruno_quart_template Flask Application
 
-project_description
+Awesome l1_rochacbruno_quart_template created by hnsfnet
 
 ## Installation
 
 From source:
 
 ```bash
-git clone https://github.com/author_name/project_urlname project_name
-cd project_name
+git clone https://github.com/hnsfnet/l1-rochacbruno-quart-template l1_rochacbruno_quart_template
+cd l1_rochacbruno_quart_template
 make install
 ```
 
 From pypi:
 
 ```bash
-pip install project_name
+pip install l1_rochacbruno_quart_template
 ```
 
 ## Executing
@@ -79,13 +79,13 @@ This application has a CLI interface that extends the Flask CLI.
 Just run:
 
 ```bash
-$ project_name
+$ l1_rochacbruno_quart_template
 ```
 
 or
 
 ```bash
-$ python -m project_name
+$ python -m l1_rochacbruno_quart_template
 ```
 
 To see the help message and usage instructions.
@@ -93,10 +93,10 @@ To see the help message and usage instructions.
 ## First run
 
 ```bash
-project_name create-db   # run once
-project_name populate-db  # run once (optional)
-project_name add-user -u admin -p 1234  # ads a user
-project_name run
+l1_rochacbruno_quart_template create-db   # run once
+l1_rochacbruno_quart_template populate-db  # run once (optional)
+l1_rochacbruno_quart_template add-user -u admin -p 1234  # ads a user
+l1_rochacbruno_quart_template run
 ```
 
 Go to:
